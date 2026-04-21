@@ -1,0 +1,30 @@
+# OS / Editor
+.vs/
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.user
+*.swp
+
+# Node / frontend
+**/node_modules/
+**/dist/
+**/coverage/
+**/.vite/
+
+# .NET
+**/bin/
+**/obj/
+
+# Logs
+**/logs/
+*.log
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Docker local artifacts
+*.tar
